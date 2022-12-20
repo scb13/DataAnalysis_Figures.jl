@@ -3,7 +3,8 @@ module DataAnalysis_Figures
 # load in processed arrays with all helper functions including simulated pop
 # functions for different analyses used in figures
 
-using PrettyPlot, JLD2, GLM, Dates, StatsBase, HypothesisTests, KernelDensity
+using JLD2, GLM, Dates, StatsBase, HypothesisTests, KernelDensity
+# PrettyPlot as well if using Figure Composer https://gitlab.oit.duke.edu/herzfeldd/PrettyPlot.jl
 
 include("smooth.jl")
 include("gauss4.jl")
